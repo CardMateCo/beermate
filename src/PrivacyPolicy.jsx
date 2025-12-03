@@ -3,7 +3,7 @@ function PrivacyPolicy() {
         <div className="card">
             <h2>Privacy Policy</h2>
             <p className="page-desc"><strong>Effective date:</strong> July 2, 2025</p>
-            <p>Thank you for choosing to use <strong>BeerMate</strong> (the "App"). Your privacy is important to us.</p>
+            <p>Thank you for choosing to use <strong>BEERMATE</strong> (the "App"). Your privacy is important to us.</p>
             <ol className="legal-list">
                 <li><strong>No Personal Data Collection</strong><br />
                     This app does not collect, store, or share any personal information or data from users. When you use the App, no information about you or your device is collected or transmitted.
@@ -27,7 +27,7 @@ function PrivacyPolicy() {
             </ol>
             <hr className="divider" />
             <div className="footer">
-                <div>BeerMate</div>
+                <div>BEERMATE</div>
                 <div>CardMateCompany</div>
             </div>
         </div>

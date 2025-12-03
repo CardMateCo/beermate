@@ -4,16 +4,33 @@ function Home() {
     return (
         <div className="card home-card">
             <img src={`${import.meta.env.BASE_URL}beermateX4.png`} alt="Beermate logo" className="logo" />
-            <h2>Welcome to Beermate</h2>
-            <p className="page-desc">Please select a page to view:</p>
-            <ul>
-                <li><Link to="/privacy">Privacy Policy</Link></li>
-                <li><Link to="/terms">Terms of Use</Link></li>
-                <li><Link to="/faq">FAQ</Link></li>
-            </ul>
+            <h2>Welcome to BEERMATE</h2>
+            <div className="install-guide">
+                <h3>How to Install</h3>
+                <div className="step-container">
+                    <div className="step">
+                        <div className="step-number">1</div>
+                        <h4>Install AltStore</h4>
+                        <p>The world's most popular alternative app store for iOS.</p>
+                        <a href="https://altstore.io/" target="_blank" rel="noopener noreferrer" className="btn-primary">
+                            Get AltStore
+                        </a>
+                    </div>
+                    <div className="step">
+                        <div className="step-number">2</div>
+                        <h4>Install BEERMATE</h4>
+                        <p>Once AltStore is ready, click below to install BEERMATE.</p>
+                        <a href="altstore://source?url=https://cardmateco.github.io/beermate/altstore.json" className="btn-primary">
+                            Get BEERMATE
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
             <hr className="divider" />
             <div className="footer">
-                <div>BeerMate</div>
+                <div>BEERMATE</div>
                 <div>CardMateCompany</div>
             </div>
         </div>

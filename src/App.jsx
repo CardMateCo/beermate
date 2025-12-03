@@ -10,9 +10,10 @@ function App() {
         <Router>
             <nav style={{ padding: '1rem', borderBottom: '1px solid #ccc', marginBottom: '2.5rem' }}>
                 <Link to="/" style={{ marginRight: '1rem' }}>Home</Link>
+                <Link to="/faq">FAQ</Link>
                 <Link to="/privacy" style={{ marginRight: '1rem' }}>Privacy Policy</Link>
                 <Link to="/terms" style={{ marginRight: '1rem' }}>Terms of Use</Link>
-                <Link to="/faq">FAQ</Link>
+
             </nav>
             <Routes>
                 <Route path="/" element={<Home />} />

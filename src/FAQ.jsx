@@ -4,16 +4,20 @@ const FAQ = () => {
     return (
         <div className="page-content">
             <h2>Frequently Asked Questions</h2>
-            <p className="page-desc">Here are some common questions about Beermate.</p>
+            <p className="page-desc">Here are some common questions about BEERMATE.</p>
 
             <ul>
                 <li>
-                    <strong>How do I use Beermate?</strong>
-                    <p>Simply install the app and select whatever game you want to play.</p>
+                    <strong>How do I use BEERMATE?</strong>
+                    <p>Simply install the app through AltStore and select whatever game you want to play.</p>
+                </li>
+                <li>
+                    <strong>What is AltStore?</strong>
+                    <p>AltStore is a third-party app store for iOS that lets you install apps Apple normally wouldn’t allow on the App Store, including fun drinking game apps like BEERMATE.</p>
                 </li>
                 <li>
                     <strong>Is Beermate free?</strong>
-                    <p>Yes, Beermate is completely free to use.</p>
+                    <p>Yes, BEERMATE is completely free to use.</p>
                 </li>
                 <li>
                     <strong>Will there be more games?</strong>
