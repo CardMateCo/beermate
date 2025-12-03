@@ -16,7 +16,7 @@ const FAQ = () => {
                     <p>AltStore is a third-party app store for iOS that lets you install apps Apple normally wouldn’t allow on the App Store, including fun drinking game apps like BEERMATE.</p>
                 </li>
                 <li>
-                    <strong>Is Beermate free?</strong>
+                    <strong>Is BEERMATE free?</strong>
                     <p>Yes, BEERMATE is completely free to use.</p>
                 </li>
                 <li>
