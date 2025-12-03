@@ -25,6 +25,15 @@ function Home() {
                         </a>
                     </div>
                 </div>
+                <div className="webapp-link">
+                    <p className="webapp-title">No iPhone? No problem.</p>
+                    <a href="https://drinkup-beermate.web.app" target="_blank" rel="noopener noreferrer" className="btn-secondary">
+                        Open Web Version
+                    </a>
+                    <p className="webapp-tip">
+                        <strong>Pro Tip:</strong> Add to Home Screen for the best experience
+                    </p>
+                </div>
             </div>
 
 
